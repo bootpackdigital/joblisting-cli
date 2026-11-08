@@ -15,11 +15,11 @@ environment (local, staging, production).
 ### One-line installer (macOS / Linux)
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/michaelbonner/joblisting-cli/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/bootpackdigital/joblisting-cli/main/install.sh | sh
 ```
 
 This downloads the right native binary for your platform from the
-[latest release](https://github.com/michaelbonner/joblisting-cli/releases/latest) and
+[latest release](https://github.com/bootpackdigital/joblisting-cli/releases/latest) and
 drops it on your `PATH`.
 
 Environment overrides:
@@ -31,7 +31,7 @@ Environment overrides:
 ### Manual download
 
 Grab the binary for your platform from the
-[latest release](https://github.com/michaelbonner/joblisting-cli/releases/latest) and make
+[latest release](https://github.com/bootpackdigital/joblisting-cli/releases/latest) and make
 it executable:
 
 | Platform      | Asset                        |

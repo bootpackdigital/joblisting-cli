@@ -2,14 +2,14 @@
 # Install the joblisting CLI by downloading the right prebuilt binary from GitHub Releases.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/michaelbonner/joblisting-cli/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/bootpackdigital/joblisting-cli/main/install.sh | sh
 #
 # Env overrides:
 #   JOBLISTING_INSTALL_DIR   install location (default: /usr/local/bin, or ~/.local/bin if not writable)
 #   JOBLISTING_VERSION       release tag to install (default: latest)
 #
 # This file is the source of truth; cli-release.yml mirrors it (and the prebuilt
-# binaries) to the public michaelbonner/joblisting-cli repo, which is where users
+# binaries) to the public bootpackdigital/joblisting-cli repo, which is where users
 # install from. The app repo itself is private, so its release/raw URLs 404 for
 # anonymous downloads.
 #
@@ -17,7 +17,7 @@
 # pipefail or other bashisms. There are no pipelines here, so `set -eu` suffices.
 set -eu
 
-REPO="michaelbonner/joblisting-cli"
+REPO="bootpackdigital/joblisting-cli"
 BIN_NAME="joblisting"
 
 err() { echo "error: $*" >&2; exit 1; }
